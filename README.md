@@ -2,4 +2,4 @@
 
 ## Responsive Web Design Certification
 
-### [Survey Form](https://pages.github.com/)
+### [Survey Form](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/HTML/Survery-Form/index.html)
