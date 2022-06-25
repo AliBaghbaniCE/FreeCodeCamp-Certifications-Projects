@@ -1,0 +1,26 @@
+/* partials */
+@use "./variables.scss";
+
+.header {
+  width: 100%;
+  height: auto;
+  background-color: variables.$header-color;
+  padding: 1rem 0.2rem 0 0.2rem;
+  @extend %box-setting;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  line-height: 3.6rem;
+}
+
+.description {
+  padding: 1.2rem 0;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}

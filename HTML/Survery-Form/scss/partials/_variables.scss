@@ -1,0 +1,21 @@
+// colors
+$background-color: #f3d007;
+$header-color: #f3ac06;
+$text-color: #0c1897;
+$util1-color: #f6640a;
+//
+// fonts and sizes
+$font-families: "Tahoma", "Verdana", sans-serif;
+$root-font-size: 10px;
+$form-question-fs: 1.7rem;
+$form-question-line-height-fs: 2.04rem;
+$form-answer-box-fs: 1.5rem;
+$form-answer-box-line-height-fs: 1.8rem;
+//
+// textbox border radius
+$text-box-border-radius: 0.5rem;
+//
+/* shared styles */
+%box-setting {
+  box-sizing: border-box;
+}

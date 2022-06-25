@@ -1,0 +1,101 @@
+/* partials */
+@use "./variables.scss";
+//
+/* mixins */
+@mixin form-size-setting($font-size, $line-height) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+.fieldset {
+  padding: 1rem 1.2rem;
+  border: 0.2rem solid variables.$util1-color;
+  @extend %box-setting;
+}
+
+.fieldset-legend {
+  padding-top: 1rem;
+  margin-bottom: -0.5rem;
+  @include form-size-setting(
+    variables.$form-question-fs,
+    variables.$form-question-line-height-fs
+  );
+}
+
+.divider {
+  width: 100%;
+  border-top: 1rem solid variables.$header-color;
+}
+
+.user-info label,
+.user-info input {
+  display: block;
+  width: 100%;
+  padding: 0.3rem 0;
+}
+
+.user-info label {
+  @include form-size-setting(
+    variables.$form-question-fs,
+    variables.$form-question-line-height-fs
+  );
+}
+
+.user-info input {
+  @include form-size-setting(
+    variables.$form-answer-box-fs,
+    variables.$form-answer-box-line-height-fs
+  );
+  border-radius: variables.$text-box-border-radius;
+}
+
+.dropdown {
+  width: 100%;
+  border-radius: variables.$text-box-border-radius;
+  padding: 0.5rem 0;
+  @include form-size-setting(
+    variables.$form-answer-box-fs,
+    variables.$form-answer-box-line-height-fs
+  );
+}
+
+.chkbox-rdio-container {
+  padding-bottom: 0.2rem;
+  @include form-size-setting(
+    variables.$form-answer-box-fs,
+    variables.$form-answer-box-line-height-fs
+  );
+}
+
+.best-movie-feedback-label {
+  display: block;
+  @include form-size-setting(
+    variables.$form-question-fs,
+    variables.$form-question-line-height-fs
+  );
+}
+
+.best-movie-feedback {
+  width: 100%;
+  border-radius: variables.$text-box-border-radius;
+  margin: 0.5rem 0 0 0;
+  resize: vertical;
+  @include form-size-setting(
+    variables.$form-answer-box-fs,
+    variables.$form-answer-box-line-height-fs
+  );
+}
+
+.submit {
+  width: 100%;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  padding: 0.5rem 0;
+  background-color: variables.$util1-color;
+  color: variables.$text-color;
+  font-size: 1.4rem;
+}
+
+.submit:hover {
+  cursor: pointer;
+}

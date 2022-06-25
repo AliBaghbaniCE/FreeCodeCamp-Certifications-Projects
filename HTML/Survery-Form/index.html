@@ -4,15 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Form</title>
-    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="./css/main.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <!-- whole page container -->
     <div class="container">
       <!-- HEADER -->
-      <header>
-        <h1 id="title">2022 Oscar festival Survey Form</h1>
-        <p id="description">
+      <header class="header">
+        <h1 class="title" id="title">2022 Oscar festival Survey Form</h1>
+        <p class="description" id="description">
           Please tell us about 2022 Oscar festival by completing this survey
           form.
         </p>
@@ -20,10 +20,11 @@
       <!-- MAIN -->
       <main>
         <!-- FORM SECTION -->
-        <section>
-          <form id="survey-form">
+        <form id="survey-form">
+          <div class="user-info">
+            <h2>Please Enter Your General Info</h2>
             <!-- Name -->
-            <fieldset>
+            <fieldset class="fieldset">
               <label id="name-label" for="name">Name</label>
               <input
                 id="name"
@@ -34,7 +35,7 @@
             </fieldset>
             <div class="divider"></div>
             <!-- Email -->
-            <fieldset>
+            <fieldset class="fieldset">
               <label id="email-label" for="email">Email</label>
               <input
                 id="email"
@@ -45,7 +46,7 @@
             </fieldset>
             <div class="divider"></div>
             <!-- Age -->
-            <fieldset>
+            <fieldset class="fieldset">
               <label id="number-label" for="number">Age(optional)</label>
               <input
                 id="number"
@@ -55,240 +56,266 @@
                 placeholder="Age"
               />
             </fieldset>
-            <div class="divider"></div>
-            <!-- Best movie -->
-            <fieldset>
-              <legend>Which movie do you think was the best?</legend>
-              <select id="dropdown">
-                <option selected disabled>Select a movie</option>
-                <option>CODA</option>
-                <option>Nightmare Alley</option>
-                <option>Don't Look Up</option>
-                <option>Dune</option>
-                <option>Drive My Car</option>
-                <option>Belfast</option>
-                <option>Licorice Pizza</option>
-                <option>The Power of the Dog</option>
-                <option>West Side Story</option>
-                <option>King Richard</option>
-              </select>
-            </fieldset>
-            <div class="divider"></div>
-            <!-- best actors -->
-            <fieldset>
-              <legend>Which actors do you like the most?</legend>
-              <div class="chkbox-rdio-container">
-                <label for="actor1">Will Smith</label>
-                <input
-                  id="actor1"
-                  type="checkbox"
-                  name="actor1"
-                  value="Will Smith"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="actor2">Andrew Garfield</label>
-                <input
-                  id="actor2"
-                  type="checkbox"
-                  name="actor2"
-                  value="Andrew Garfield"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="actor3">Benedict Cumberbatch</label>
-                <input
-                  id="actor3"
-                  type="checkbox"
-                  name="actor3"
-                  value="Benedict Cumberbatch"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="actor4">Javier Bardem</label>
-                <input
-                  id="actor4"
-                  type="checkbox"
-                  name="actor4"
-                  value="Javier Bardem"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="actor5">Denzel Washington</label>
-                <input
-                  id="actor5"
-                  type="checkbox"
-                  name="actor5"
-                  value="Denzel Washington"
-                />
-              </div>
-            </fieldset>
-            <div class="divider"></div>
-            <!-- best actresses -->
-            <fieldset>
-              <legend>Which actresses do you like the most?</legend>
-              <div class="chkbox-rdio-container">
-                <label for="actress1">Jessica Chastain</label>
-                <input
-                  id="actress1"
-                  type="checkbox"
-                  name="actress1"
-                  value="Jessica Chastain"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="actress2">Olivia Colman</label>
-                <input
-                  id="actress2"
-                  type="checkbox"
-                  name="actress2"
-                  value="Olivia Colman"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="actress3">Kristen Stewart</label>
-                <input
-                  id="actress3"
-                  type="checkbox"
-                  name="actress3"
-                  value="Kristen Stewart"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="actress4">Nicole Kidman</label>
-                <input
-                  id="actress4"
-                  type="checkbox"
-                  name="actress4"
-                  value="Nicole Kidman"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="acressr5">Penélope Cruz</label>
-                <input
-                  id="actress5"
-                  type="checkbox"
-                  name="actress5"
-                  value="Penélope Cruz"
-                />
-              </div>
-            </fieldset>
-            <div class="divider"></div>
-            <!-- best director -->
-            <fieldset>
-              <legend>Which director do you think was the best?</legend>
-              <div class="chkbox-rdio-container">
-                <label for="director1">Jane Campion</label>
-                <input
-                  id="director1"
-                  type="radio"
-                  name="director"
-                  value="Jane Campion"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="director2">Kenneth Branagh</label>
-                <input
-                  id="director2"
-                  type="radio"
-                  name="director"
-                  value="Kenneth Branagh"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="director3">Ryusuke Hamaguchi</label>
-                <input
-                  id="director3"
-                  type="radio"
-                  name="director"
-                  value="Ryusuke Hamaguchi"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="director4">Steven Spielberg</label>
-                <input
-                  id="director4"
-                  type="radio"
-                  name="director"
-                  value="Steven Spielberg"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="director5">Paul Thomas Anderson</label>
-                <input
-                  id="director5"
-                  type="radio"
-                  name="director"
-                  value="Paul Thomas Anderson"
-                />
-              </div>
-            </fieldset>
-            <div class="divider"></div>
-            <!-- best song -->
-            <fieldset>
-              <legend>Which song do you think was the best?</legend>
-              <div class="chkbox-rdio-container">
-                <label for="song1">No Time To Die</label>
-                <input
-                  id="song1"
-                  type="radio"
-                  name="song"
-                  value="No Time To Die"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="song2">Dos Oruguitas</label>
-                <input
-                  id="song2"
-                  type="radio"
-                  name="song"
-                  value="Dos Oruguitas"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="song3">Somehow You Do</label>
-                <input
-                  id="song3"
-                  type="radio"
-                  name="song"
-                  value="Somehow You Do"
-                />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="song4">Be Alive</label>
-                <input id="song4" type="radio" name="song" value="Be Alive" />
-              </div>
-              <div class="chkbox-rdio-container">
-                <label for="song5">Down to Joy</label>
-                <input
-                  id="song5"
-                  type="radio"
-                  name="song"
-                  value="Down to Joy"
-                />
-              </div>
-            </fieldset>
-            <div class="divider"></div>
-            <!-- textarea -->
-            <fieldset>
-              <label id="best-movie-feedback-label" for="best-movie-feedback"></label>
-                Please tell us more about the reasons for the movie that you
-                liked the most.</label
-              >
-              <textarea id="best-movie-feedback" rows="6" placeholder="write about 3 to 5 lines..."></textarea>
-            </fieldset>
-            <!-- submit -->
-            <fieldset>
-                <input id="submit" type="submit" />
-            </fieldset>
-            <div class="divider"></div>
-          </form>
-        </section>
+          </div>
+          <div class="divider"></div>
+          <!-- Best movie -->
+          <fieldset class="fieldset">
+            <legend class="fieldset-legend">
+              Which movie do you think was the best?
+            </legend>
+            <select class="dropdown" id="dropdown">
+              <option selected disabled>Select a movie</option>
+              <option>CODA</option>
+              <option>Nightmare Alley</option>
+              <option>Don't Look Up</option>
+              <option>Dune</option>
+              <option>Drive My Car</option>
+              <option>Belfast</option>
+              <option>Licorice Pizza</option>
+              <option>The Power of the Dog</option>
+              <option>West Side Story</option>
+              <option>King Richard</option>
+            </select>
+          </fieldset>
+          <div class="divider"></div>
+          <!-- best actors -->
+          <fieldset class="fieldset">
+            <legend class="fieldset-legend">
+              Which actors do you like the most?
+            </legend>
+            <div class="chkbox-rdio-container">
+              <label for="actor1">Will Smith</label>
+              <input
+                id="actor1"
+                type="checkbox"
+                name="actor1"
+                value="Will Smith"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="actor2">Andrew Garfield</label>
+              <input
+                id="actor2"
+                type="checkbox"
+                name="actor2"
+                value="Andrew Garfield"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="actor3">Benedict Cumberbatch</label>
+              <input
+                id="actor3"
+                type="checkbox"
+                name="actor3"
+                value="Benedict Cumberbatch"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="actor4">Javier Bardem</label>
+              <input
+                id="actor4"
+                type="checkbox"
+                name="actor4"
+                value="Javier Bardem"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="actor5">Denzel Washington</label>
+              <input
+                id="actor5"
+                type="checkbox"
+                name="actor5"
+                value="Denzel Washington"
+              />
+            </div>
+          </fieldset>
+          <div class="divider"></div>
+          <!-- best actresses -->
+          <fieldset class="fieldset">
+            <legend class="fieldset-legend">
+              Which actresses do you like the most?
+            </legend>
+            <div class="chkbox-rdio-container">
+              <label for="actress1">Jessica Chastain</label>
+              <input
+                id="actress1"
+                type="checkbox"
+                name="actress1"
+                value="Jessica Chastain"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="actress2">Olivia Colman</label>
+              <input
+                id="actress2"
+                type="checkbox"
+                name="actress2"
+                value="Olivia Colman"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="actress3">Kristen Stewart</label>
+              <input
+                id="actress3"
+                type="checkbox"
+                name="actress3"
+                value="Kristen Stewart"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="actress4">Nicole Kidman</label>
+              <input
+                id="actress4"
+                type="checkbox"
+                name="actress4"
+                value="Nicole Kidman"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="actress5">Penélope Cruz</label>
+              <input
+                id="actress5"
+                type="checkbox"
+                name="actress5"
+                value="Penélope Cruz"
+              />
+            </div>
+          </fieldset>
+          <div class="divider"></div>
+          <!-- best director -->
+          <fieldset class="fieldset">
+            <legend class="fieldset-legend">
+              Which director do you think was the best?
+            </legend>
+            <div class="chkbox-rdio-container">
+              <label for="director1">Jane Campion</label>
+              <input
+                id="director1"
+                type="radio"
+                name="director"
+                value="Jane Campion"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="director2">Kenneth Branagh</label>
+              <input
+                id="director2"
+                type="radio"
+                name="director"
+                value="Kenneth Branagh"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="director3">Ryusuke Hamaguchi</label>
+              <input
+                id="director3"
+                type="radio"
+                name="director"
+                value="Ryusuke Hamaguchi"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="director4">Steven Spielberg</label>
+              <input
+                id="director4"
+                type="radio"
+                name="director"
+                value="Steven Spielberg"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="director5">Paul Thomas Anderson</label>
+              <input
+                id="director5"
+                type="radio"
+                name="director"
+                value="Paul Thomas Anderson"
+              />
+            </div>
+          </fieldset>
+          <div class="divider"></div>
+          <!-- best song -->
+          <fieldset class="fieldset">
+            <legend class="fieldset-legend">
+              Which song do you think was the best?
+            </legend>
+            <div class="chkbox-rdio-container">
+              <label for="song1">No Time To Die</label>
+              <input
+                id="song1"
+                type="radio"
+                name="song"
+                value="No Time To Die"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="song2">Dos Oruguitas</label>
+              <input
+                id="song2"
+                type="radio"
+                name="song"
+                value="Dos Oruguitas"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="song3">Somehow You Do</label>
+              <input
+                id="song3"
+                type="radio"
+                name="song"
+                value="Somehow You Do"
+              />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="song4">Be Alive</label>
+              <input id="song4" type="radio" name="song" value="Be Alive" />
+            </div>
+            <div class="chkbox-rdio-container">
+              <label for="song5">Down to Joy</label>
+              <input id="song5" type="radio" name="song" value="Down to Joy" />
+            </div>
+          </fieldset>
+          <div class="divider"></div>
+          <!-- textarea -->
+          <fieldset class="fieldset">
+            <label
+              class="best-movie-feedback-label"
+              id="best-movie-feedback-label"
+              for="best-movie-feedback"
+            >
+              Please tell us more about the reasons for the movie that you liked
+              the most.</label
+            >
+
+            <textarea
+              class="best-movie-feedback"
+              id="best-movie-feedback"
+              rows="6"
+              placeholder="write about 3 to 5 lines..."
+            ></textarea>
+          </fieldset>
+          <div class="divider"></div>
+          <!-- submit -->
+          <fieldset class="fieldset">
+            <input class="submit" id="submit" type="submit" />
+          </fieldset>
+          <div class="divider"></div>
+        </form>
       </main>
       <!-- FOOTER -->
       <footer>
-        <div>Created by Ali Baghbani</div> 
-        <div>Email : AliBaghbaniCE@gmail.com</div>
+        <div>Created by Ali Baghbani</div>
+        <div>
+          Email :<a href="mailto:AliBaghbaniCE@gmail.com" target="_blank"
+            >AliBaghbaniCE@gmail.com</a
+          >
+        </div>
+        <div>
+          Github :
+          <a href="https://github.com/AliBaghbaniCE" target="_blank"
+            >https://github.com/AliBaghbaniCE</a
+          >
+        </div>
       </footer>
     </div>
   </body>
