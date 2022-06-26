@@ -1,0 +1,47 @@
+/* partials */
+@use "./variables.scss";
+
+.tribute-info {
+  background-color: variables.$secondary-bg-color;
+  padding-bottom: 2rem;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.tribute-info > *:not(.tribute-timeline) {
+  text-align: center;
+}
+
+.tribute-info .timeline-title {
+  font-size: variables.$title2-fs;
+  color: variables.$primary-text-color;
+  padding: 2rem 0;
+}
+
+.tribute-info .tribute-timeline {
+  padding: 1rem 0 2rem 2.5rem;
+}
+
+.tribute-info .tribute-timeline li {
+  color: variables.$secondry-text-color;
+  padding: 1rem 0;
+}
+
+.tribute-info .tribute-timeline li strong {
+  color: variables.$primary-text-color;
+}
+
+.tribute-info .tribute-quote {
+  color: variables.$secondry-text-color;
+  padding: 2rem;
+}
+
+.tribute-info .tribute-quote cite {
+  display: block;
+  padding: 2rem;
+}
+
+.tribute-info .tribute-read-more {
+  padding: 0 2rem;
+}

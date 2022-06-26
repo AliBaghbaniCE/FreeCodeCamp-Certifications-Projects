@@ -1,0 +1,23 @@
+/* partials */
+@use "./variables.scss";
+
+.tribute-header {
+  background-color: variables.$secondary-bg-color;
+  padding: 3rem 2rem;
+}
+
+.tribute-header h1,
+.tribute-header p {
+  text-align: center;
+}
+
+.tribute-header h1 {
+  font-size: variables.$title-fs;
+  color: variables.$primary-text-color;
+}
+
+.tribute-header p {
+  font-size: variables.$title-description-fs;
+  color: variables.$secondry-text-color;
+  padding-top: 1.5rem;
+}
