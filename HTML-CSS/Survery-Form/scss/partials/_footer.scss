@@ -1,9 +1,36 @@
-footer {
-  padding: 2%;
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #00ffff;
+  color: #0000db;
+  padding: 1rem 0;
 }
 
-footer > div {
-  font-size: 2.2rem;
-  line-height: 3rem;
+.footer > div {
+  font-size: 1.5rem;
   text-align: center;
+}
+
+.footer > div > a:link {
+  color: #0000db;
+  text-decoration: none;
+}
+
+.footer > div > a:visited {
+  color: #0000db;
+}
+
+.footer > div > a:hover {
+  color: #000000;
+  font-size: 1.8rem;
+}
+
+.footer > div > a:active {
+  background-color: #ffffff;
+  color: #db006e;
+  border-radius: 0.5rem;
 }
