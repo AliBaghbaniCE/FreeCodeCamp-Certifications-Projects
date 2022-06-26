@@ -48,6 +48,7 @@
 .tribute-figure .tribute-image {
   display: block;
   height: auto;
+  max-width: 100%;
 }
 
 .tribute-figure .tribute-caption {
@@ -141,10 +142,6 @@
 }
 
 @media all and (min-width: 600px) {
-  .tribute-figure .tribute-image {
-    max-width: 70%;
-  }
-
   .tribute-info .tribute-timeline,
 .tribute-info .tribute-quote {
     max-width: 50%;
