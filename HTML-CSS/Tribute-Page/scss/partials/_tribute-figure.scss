@@ -1,0 +1,34 @@
+/* partials */
+@use "./variables.scss";
+
+.tribute-figure-container {
+  background-color: variables.$secondary-bg-color;
+  width: 100%;
+  height: auto;
+}
+
+.tribute-figure {
+  background-color: variables.$primary-bg-color;
+  width: 98%;
+  height: auto;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.tribute-figure .tribute-image,
+.tribute-figure .tribute-caption {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tribute-figure .tribute-image {
+  display: block;
+  height: auto;
+}
+
+.tribute-figure .tribute-caption {
+  font-size: variables.$caption-fs;
+  color: variables.$secondry-text-color;
+  text-align: center;
+  margin-top: 0.5rem;
+}
