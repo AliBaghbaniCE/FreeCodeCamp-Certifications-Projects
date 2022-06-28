@@ -1,0 +1,16 @@
+@media all and (min-width: 817px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container .nav-item {
+    width: 30%;
+    height: 100%;
+  }
+
+  .container .doc-item {
+    width: 70%;
+    height: auto;
+  }
+}

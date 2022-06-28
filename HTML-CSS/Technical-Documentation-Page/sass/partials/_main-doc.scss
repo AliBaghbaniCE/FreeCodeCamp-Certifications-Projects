@@ -1,0 +1,83 @@
+/* partials */
+@use "./template.scss";
+
+.main-section {
+  width: 100%;
+  height: auto;
+  padding: 0 1rem 3.5rem;
+}
+
+.main-section > section {
+  padding-bottom: 1.5rem;
+}
+
+.main-section > header {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.main-section > header + p {
+  padding-bottom: 2.5rem;
+}
+
+.main-section > section > h2 {
+  padding-bottom: 0.5rem;
+}
+
+.main-section > section > section {
+  padding-bottom: 1rem;
+}
+
+.main-section > section > section > h3 {
+  padding-bottom: 0.5rem;
+}
+
+.main-section code:not(.main-section table code) {
+  display: block;
+  margin: 0.5rem 0 1.5rem 0;
+  padding: 1rem;
+  overflow: auto;
+  line-height: 1.5rem;
+  white-space: pre;
+  border-width: 0.2rem;
+  border-style: solid;
+  border-color: template.$nav-border-color;
+}
+
+.main-section table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  margin: 0.5rem 0 1.5rem 0;
+  border-width: 0.2rem;
+  border-style: solid;
+  border-color: template.$table-border-color;
+  border-collapse: collapse;
+}
+
+.main-section table th {
+  padding: 1.5rem;
+  border-bottom-width: 0.2rem;
+  border-bottom-style: solid;
+  border-bottom-color: template.$table-border-color;
+  text-align: center;
+}
+
+.main-section table td {
+  padding: 1rem;
+  text-align: center;
+}
+
+.main-section ol,
+.main-section ul {
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.main-section ol > li,
+.main-section ul > li {
+  margin-left: 1rem;
+}
+
+.main-section details {
+  margin: 0.5rem 0 1.5rem 0;
+}
