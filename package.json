@@ -8,7 +8,12 @@
   ],
   "description": "All of the projects which I have done to earn my certifications from the freeCodeCamp website.",
   "main": "README.md",
-  "scripts": {},
+  "scripts": {
+	  "sass-html-css-1" : "npx sass ./HTML-CSS/Survery-Form/scss/main.scss ./HTML-CSS/Survery-Form/css/main.css",
+	  "sass-html-css-2" : "npx sass ./HTML-CSS/Tribute-Page/scss/main.scss ./HTML-CSS/Tribute-Page/css/main.css",
+	  "sass-html-css-3" : "npx sass ./HTML-CSS/Technical-Documentation-Page/scss/main.scss ./HTML-CSS/Technical-Documentation-Page/css/main.css",
+	  "sass-html-css-4" : "npx sass ./HTML-CSS/Product-Landing-Page/scss/main.scss ./HTML-CSS/Product-Landing-Page/css/main.css"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AliBaghbaniCE/FreeCodeCamp-Certifications-Projects.git"
