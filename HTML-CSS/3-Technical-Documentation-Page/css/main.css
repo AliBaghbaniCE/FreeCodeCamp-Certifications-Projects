@@ -188,12 +188,10 @@
     display: flex;
     flex-direction: row;
   }
-
   .container .nav-item {
     width: 30%;
     height: 100%;
   }
-
   .container .doc-item {
     width: 70%;
     height: auto;
@@ -226,4 +224,6 @@ body {
 
 main {
   width: 100%;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
