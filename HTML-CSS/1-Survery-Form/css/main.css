@@ -1,5 +1,8 @@
 /* shared styles */
-body, .container, .fieldset, .header {
+body,
+.container,
+.fieldset,
+.header {
   box-sizing: border-box;
 }
 

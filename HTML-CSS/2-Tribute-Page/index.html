@@ -1,85 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribute Page</title>
+    <link href="./css/main.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tribute Page</title>
-  <link href="./css/main.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  <main id="main">
-    <!-- HEADER -->
-    <header class="tribute-header">
-      <h1 id="title">Prof. Maryam Mirzakhani</h1>
-      <p>Iranian mathematician and a professor of mathematics at Stanford University.</p>
-    </header>
-    <!-- FIGURE/CAPTION -->
-    <div class="tribute-figure-container">
-      <figure class="tribute-figure" id="img-div">
-        <img class="tribute-image" id="image" src="./image/Maryam-Mirzakhani.jpg" alt="Maryam-Mirzakhani" />
-        <figcaption class="tribute-caption" id="img-caption">
-          On 13 August 2014, Mirzakhani was honored with the Fields Medal, the most prestigious award in mathematics,
-          becoming the first Iranian to be honored with the award and the only woman to date.
-        </figcaption>
-      </figure>
-    </div>
-    <!-- TRIBUTE LINK -->
-    <section class="tribute-info" id="tribute-info">
-      <h2 class="timeline-title">Here's a time line of Prof. Maryam Mirzakhani's life:</h2>
-      <ul class="tribute-timeline">
-        <li><strong>1977</strong> - born on 12 May in Tehran, Iran.</li>
-        <li><strong>1994</strong> - became the first Iranian woman to win a gold medal at the International Mathematical
-          Olympiad in Hong Kong, scoring 41 out of 42 points.</li>
-        <li><strong>1998</strong> - On 17 March, after attending a conference consisting of gifted individuals and
-          former Olympiad competitors, Mirzakhani and Zavareh, along with other attendees, boarded a bus in Ahvaz en
-          route to Tehran. The bus was involved in an accident wherein it fell off a cliff, killing seven of the
-          passengers—all Sharif University students. This incident is widely considered a national tragedy in Iran.
-          Mirzakhani and Zavareh were two of the few survivors.</li>
-        <li><strong>1999</strong> - obtained a Bachelor of Science in mathematics from the Sharif University of
-          Technology. During her time there, she received recognition from the American Mathematical Society for her
-          work in developing a simple proof for a theorem of Schur.</li>
-        <li><strong>2004</strong> - earned a PhD from Harvard University.</li>
-        <li><strong>2008</strong> - married Jan Vondrák, a Czech theoretical computer scientist and applied
-          mathematician who currently is an associate professor at Stanford University.</li>
-        <li><strong>2009</strong> - became a professor at Stanford University.</li>
-        <li><strong>2013</strong> - was diagnosed with breast cancer.</li>
-        <li><strong>2014</strong> - was awarded the Fields Medal for "her outstanding contributions to the dynamics and
-          geometry of Riemann surfaces and their moduli spaces".</li>
-        <li><strong>2016</strong> - the cancer spread to her bones and liver.</li>
-        <li><strong>2017</strong> - died on 14 July at the age of 40 at Stanford Hospital in Stanford, California.</li>
-      </ul>
-      <blockquote class="tribute-quote"
-        cite="https://slate.com/human-interest/2014/08/maryam-mirzakhani-fields-medal-first-woman-to-win-maths-biggest-prize-works-in-dynamics.html">
-        <p>[Her] work expertly blends dynamics with geometry. Among other things, she studies billiards. But now, in a
-          move very characteristic of modern mathematics, it gets kind of meta: She considers not just one billiard
-          table, but the universe of all possible billiard tables. And the kind of dynamics she studies doesn't directly
-          concern the motion of the billiards on the table, but instead a transformation of the billiard table itself,
-          which is changing its shape in a rule-governed way; if you like, the table itself moves like a strange planet
-          around the universe of all possible tables ... This isn't the kind of thing you do to win at pool, but it's
-          the kind of thing you do to win a Fields Medal. And it's what you need to do in order to expose the dynamics
-          at the heart of geometry; for there's no question that they're there.</p>
-        <cite>-- American mathematician Jordan Ellenberg</cite>
-      </blockquote>
-      <h3 class="tribute-read-more">
-        If you have time, you should read more about this incredible human
-        being on her
-        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Maryam_Mirzakhani" target="_blank">Wikipedia entry</a>.
-      </h3>
-    </section>
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div>Created by <strong>Ali Baghbani</strong></div>
-      <div>
-        Email : <a href="mailto:AliBaghbaniCE@gmail.com" target="_blank">AliBaghbaniCE@gmail.com</a>
+  <body>
+    <main id="main">
+      <!-- HEADER -->
+      <header class="tribute-header">
+        <h1 id="title">Prof. Maryam Mirzakhani</h1>
+        <p>
+          Iranian mathematician and a professor of mathematics at Stanford
+          University.
+        </p>
+      </header>
+      <!-- FIGURE/CAPTION -->
+      <div class="tribute-figure-container">
+        <figure class="tribute-figure" id="img-div">
+          <img
+            class="tribute-image"
+            id="image"
+            src="./image/Maryam-Mirzakhani.jpg"
+            alt="Maryam-Mirzakhani" />
+          <figcaption class="tribute-caption" id="img-caption">
+            On 13 August 2014, Mirzakhani was honored with the Fields Medal, the
+            most prestigious award in mathematics, becoming the first Iranian to
+            be honored with the award and the only woman to date.
+          </figcaption>
+        </figure>
       </div>
-      <div>
-        Github :
-        <a href="https://github.com/AliBaghbaniCE" target="_blank">https://github.com/AliBaghbaniCE</a>
-      </div>
-    </footer>
-  </main>
-</body>
-
+      <!-- TRIBUTE LINK -->
+      <section class="tribute-info" id="tribute-info">
+        <h2 class="timeline-title">
+          Here's a time line of Prof. Maryam Mirzakhani's life:
+        </h2>
+        <ul class="tribute-timeline">
+          <li>
+            <strong>1977</strong>
+            - born on 12 May in Tehran, Iran.
+          </li>
+          <li>
+            <strong>1994</strong>
+            - became the first Iranian woman to win a gold medal at the
+            International Mathematical Olympiad in Hong Kong, scoring 41 out of
+            42 points.
+          </li>
+          <li>
+            <strong>1998</strong>
+            - On 17 March, after attending a conference consisting of gifted
+            individuals and former Olympiad competitors, Mirzakhani and Zavareh,
+            along with other attendees, boarded a bus in Ahvaz en route to
+            Tehran. The bus was involved in an accident wherein it fell off a
+            cliff, killing seven of the passengers—all Sharif University
+            students. This incident is widely considered a national tragedy in
+            Iran. Mirzakhani and Zavareh were two of the few survivors.
+          </li>
+          <li>
+            <strong>1999</strong>
+            - obtained a Bachelor of Science in mathematics from the Sharif
+            University of Technology. During her time there, she received
+            recognition from the American Mathematical Society for her work in
+            developing a simple proof for a theorem of Schur.
+          </li>
+          <li>
+            <strong>2004</strong>
+            - earned a PhD from Harvard University.
+          </li>
+          <li>
+            <strong>2008</strong>
+            - married Jan Vondrák, a Czech theoretical computer scientist and
+            applied mathematician who currently is an associate professor at
+            Stanford University.
+          </li>
+          <li>
+            <strong>2009</strong>
+            - became a professor at Stanford University.
+          </li>
+          <li>
+            <strong>2013</strong>
+            - was diagnosed with breast cancer.
+          </li>
+          <li>
+            <strong>2014</strong>
+            - was awarded the Fields Medal for "her outstanding contributions to
+            the dynamics and geometry of Riemann surfaces and their moduli
+            spaces".
+          </li>
+          <li>
+            <strong>2016</strong>
+            - the cancer spread to her bones and liver.
+          </li>
+          <li>
+            <strong>2017</strong>
+            - died on 14 July at the age of 40 at Stanford Hospital in Stanford,
+            California.
+          </li>
+        </ul>
+        <blockquote
+          class="tribute-quote"
+          cite="https://slate.com/human-interest/2014/08/maryam-mirzakhani-fields-medal-first-woman-to-win-maths-biggest-prize-works-in-dynamics.html">
+          <p>
+            [Her] work expertly blends dynamics with geometry. Among other
+            things, she studies billiards. But now, in a move very
+            characteristic of modern mathematics, it gets kind of meta: She
+            considers not just one billiard table, but the universe of all
+            possible billiard tables. And the kind of dynamics she studies
+            doesn't directly concern the motion of the billiards on the table,
+            but instead a transformation of the billiard table itself, which is
+            changing its shape in a rule-governed way; if you like, the table
+            itself moves like a strange planet around the universe of all
+            possible tables ... This isn't the kind of thing you do to win at
+            pool, but it's the kind of thing you do to win a Fields Medal. And
+            it's what you need to do in order to expose the dynamics at the
+            heart of geometry; for there's no question that they're there.
+          </p>
+          <cite>-- American mathematician Jordan Ellenberg</cite>
+        </blockquote>
+        <h3 class="tribute-read-more">
+          If you have time, you should read more about this incredible human
+          being on her
+          <a
+            id="tribute-link"
+            href="https://en.wikipedia.org/wiki/Maryam_Mirzakhani"
+            target="_blank">
+            Wikipedia entry
+          </a>
+          .
+        </h3>
+      </section>
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div>
+          Created by
+          <strong>Ali Baghbani</strong>
+        </div>
+        <div>
+          Email :
+          <a href="mailto:AliBaghbaniCE@gmail.com" target="_blank">
+            AliBaghbaniCE@gmail.com
+          </a>
+        </div>
+        <div>
+          Github :
+          <a href="https://github.com/AliBaghbaniCE" target="_blank">
+            https://github.com/AliBaghbaniCE
+          </a>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
