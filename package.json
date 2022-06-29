@@ -9,10 +9,15 @@
   "description": "All of the projects which I have done to earn my certifications from the freeCodeCamp website.",
   "main": "README.md",
   "scripts": {
-	  "sass-html-css-1" : "npx sass ./HTML-CSS/Survery-Form/scss/main.scss ./HTML-CSS/Survery-Form/css/main.css",
-	  "sass-html-css-2" : "npx sass ./HTML-CSS/Tribute-Page/scss/main.scss ./HTML-CSS/Tribute-Page/css/main.css",
-	  "sass-html-css-3" : "npx sass ./HTML-CSS/Technical-Documentation-Page/scss/main.scss ./HTML-CSS/Technical-Documentation-Page/css/main.css",
-	  "sass-html-css-4" : "npx sass ./HTML-CSS/Product-Landing-Page/scss/main.scss ./HTML-CSS/Product-Landing-Page/css/main.css"
+    "pretty-hc-1" : "npx prettier --write ./HTML-CSS/1-Survery-Form",
+    "pretty-hc-2" : "npx prettier --write ./HTML-CSS/2-Tribute-Page",
+    "pretty-hc-3" : "npx prettier --write ./HTML-CSS/3-Technical-Documentation-Page",
+    "pretty-hc-4" : "npx prettier --write ./HTML-CSS/4-Survery-Form",
+	  "sass-hc-1" : "npx sass ./HTML-CSS/1-Survery-Form/scss/main.scss ./HTML-CSS/1-Survery-Form/css/main.css",
+	  "sass-hc-2" : "npx sass ./HTML-CSS/2-Tribute-Page/scss/main.scss ./HTML-CSS/2-Tribute-Page/css/main.css",
+	  "sass-hc-3" : "npx sass ./HTML-CSS/3-Technical-Documentation-Page/scss/main.scss ./HTML-CSS/3-Technical-Documentation-Page/css/main.css",
+	  "sass-hc-4" : "npx sass ./HTML-CSS/4-Product-Landing-Page/scss/main.scss ./HTML-CSS/4-Product-Landing-Page/css/main.css"
+    
   },
   "repository": {
     "type": "git",
