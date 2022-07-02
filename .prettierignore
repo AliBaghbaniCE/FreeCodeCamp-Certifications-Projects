@@ -1,0 +1,12 @@
+# current directory folders and files
+#
+.vscode
+node_modules
+.gitignore
+.browserslistrc
+.prettierignore
+
+# project folders and files
+#
+1-HTML-CSS/**/*.css
+1-HTML-CSS/**/*.css.map

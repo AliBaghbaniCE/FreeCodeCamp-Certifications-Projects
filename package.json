@@ -1,23 +1,34 @@
 {
   "name": "freecodecamp-certifications-projects",
   "version": "1.0.0",
-  "keywords": [
-    "freeCodeCamp",
-    "certification",
-    "project"
-  ],
+  "keywords": ["freeCodeCamp", "certification", "project"],
   "description": "All of the projects which I have done to earn my certifications from the freeCodeCamp website.",
   "main": "README.md",
+  "config": {
+    "project11": "1-HTML-CSS\\1-Survey-Form",
+    "project12": "1-HTML-CSS\\2-Tribute-Page",
+    "project13": "1-HTML-CSS\\3-Technical-Documentation-Page"
+  },
   "scripts": {
-    "pretty-hc-1" : "npx prettier --write ./HTML-CSS/1-Survery-Form",
-    "pretty-hc-2" : "npx prettier --write ./HTML-CSS/2-Tribute-Page",
-    "pretty-hc-3" : "npx prettier --write ./HTML-CSS/3-Technical-Documentation-Page",
-    "pretty-hc-4" : "npx prettier --write ./HTML-CSS/4-Survery-Form",
-	  "sass-hc-1" : "npx sass ./HTML-CSS/1-Survery-Form/scss/main.scss ./HTML-CSS/1-Survery-Form/css/main.css",
-	  "sass-hc-2" : "npx sass ./HTML-CSS/2-Tribute-Page/scss/main.scss ./HTML-CSS/2-Tribute-Page/css/main.css",
-	  "sass-hc-3" : "npx sass ./HTML-CSS/3-Technical-Documentation-Page/scss/main.scss ./HTML-CSS/3-Technical-Documentation-Page/css/main.css",
-	  "sass-hc-4" : "npx sass ./HTML-CSS/4-Product-Landing-Page/scss/main.scss ./HTML-CSS/4-Product-Landing-Page/css/main.css"
-    
+    "watchProjects": "live-server",
+    "watchProject11": "live-server --open=%npm_package_config_project11%\\index.html",
+    "watchProject12": "live-server --open=%npm_package_config_project12%\\index.html",
+    "watchProject13": "live-server --open=%npm_package_config_project13%\\index.html",
+    "watchPretty": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "currentDirPretty": "prettier --write *.*",
+    "prettyProject11": "prettier --write %npm_package_config_project11%",
+    "prettyProject12": "prettier --write %npm_package_config_project12%",
+    "prettyProject13": "prettier --write %npm_package_config_project13%",
+    "buildCss11": "sass %npm_package_config_project11%\\scss:%npm_package_config_project11%\\css --style=compressed --charset --source-map-urls=relative",
+    "buildCss12": "sass %npm_package_config_project12%\\scss:%npm_package_config_project12%\\css --style=compressed --charset --source-map-urls=relative",
+    "buildCss13": "sass %npm_package_config_project13%\\scss:%npm_package_config_project13%\\css --style=compressed --charset --source-map-urls=relative",
+    "prefixCss11": "postcss %npm_package_config_project11%\\css\\*.css --use autoprefixer -d %npm_package_config_project11%\\css",
+    "prefixCss12": "postcss %npm_package_config_project12%\\css\\*.css --use autoprefixer -d %npm_package_config_project12%\\css",
+    "prefixCss13": "postcss %npm_package_config_project13%\\css\\*.css --use autoprefixer -d %npm_package_config_project13%\\css",
+    "buildProject11": "npm run prettyProject11 && npm run buildCss11 && npm run prefixCss11",
+    "buildProject12": "npm run prettyProject12 && npm run buildCss12 && npm run prefixCss12",
+    "buildProject13": "npm run prettyProject13 && npm run buildCss13 && npm run prefixCss13",
+    "buildAll":"npm run buildProject11 && npm run buildProject12 && npm run buildProject13"
   },
   "repository": {
     "type": "git",
@@ -33,7 +44,11 @@
   },
   "homepage": "https://github.com/AliBaghbaniCE/FreeCodeCamp-Certifications-Projects#readme",
   "devDependencies": {
-    "csslint": "1.0.5",
+    "autoprefixer": "10.4.7",
+    "live-server": "1.2.2",
+    "onchange": "7.1.0",
+    "postcss": "8.4.14",
+    "postcss-cli": "10.0.0",
     "prettier": "2.7.1",
     "sass": "1.53.0"
   }

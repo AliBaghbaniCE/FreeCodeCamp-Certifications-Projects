@@ -16,7 +16,7 @@
   "endOfLine": "crlf",
   "overrides": [
     {
-      "files": ".prettierrc",
+      "files": "*.json",
       "options": {
         "parser": "json"
       }
