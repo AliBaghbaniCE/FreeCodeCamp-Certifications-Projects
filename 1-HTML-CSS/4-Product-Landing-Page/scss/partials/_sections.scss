@@ -1,0 +1,75 @@
+/* partials */
+//
+@use "./template.scss";
+
+.sections .section {
+  text-align: center;
+  padding: 2rem 0;
+}
+.sections .section h2 {
+  margin-bottom: 1rem;
+  font-size: template.$h2-fs;
+}
+.sections .section h3 {
+  margin-bottom: 0.5rem;
+  font-size: template.$h3-fs;
+}
+.sections .section p {
+  padding-bottom: 0.5rem;
+}
+.sections .section ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.sections .section ul li {
+  padding: 0.5rem;
+  font-size: template.$content-ul-fs;
+}
+.sections .section ul li::before {
+  content: "★";
+  padding-right: 0.5rem;
+}
+
+.sections .section.features {
+  background-color: template.$t-color;
+  margin-top: 31vh;
+}
+
+.sections .section.products {
+  background-color: template.$f-color;
+}
+.sections .newest .video {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.sections .section.buy {
+  background-color: template.$fi-color;
+  font-size: template.$content-fs;
+}
+.sections .section .buy-form {
+  display: block;
+  padding: 1.5rem;
+  text-align: center;
+}
+.sections .section .buy-form input {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.5rem 0.3rem;
+}
+.sections .section .buy-form .email {
+  width: 80%;
+}
+.sections .section .buy-form .submit {
+  width: 30%;
+  background-color: wheat;
+  color: template.$text-color1;
+  font-weight: 800;
+  border-radius: 1rem;
+}
+
+.sections .section .buy-form .submit:hover {
+  cursor: pointer;
+}
