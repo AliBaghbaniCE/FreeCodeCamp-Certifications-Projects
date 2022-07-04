@@ -1,0 +1,125 @@
+/* partials */
+//
+@use "./template.scss";
+
+.section.welcome {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 50% 1fr 10%;
+  grid-template-columns: 10% 1fr 15%;
+  background-color: template.$three-color;
+}
+.section.welcome .wrapper {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.section.welcome .wrapper .hero-title {
+  font-size: template.$hero-title-fs;
+  line-height: calc(3 * template.$html-lh);
+  font-weight: 900;
+  font-variant: normal;
+  margin-bottom: 0.5rem;
+}
+.section.welcome .wrapper .hero-description {
+  font-size: template.$hero-description-fs;
+  font-style: italic;
+  color: template.$two-color;
+  line-height: calc(2 * template.$html-lh);
+}
+
+.section.projects {
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.5rem;
+  background-color: template.$four-color;
+}
+.section.projects .wrapper {
+  text-align: center;
+}
+.section.projects .wrapper h2 {
+  font-size: template.$section-title-fs;
+  line-height: calc(2 * template.$html-lh);
+  padding: 2rem 1rem 0;
+}
+.section.projects .wrapper .projects-wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+.section.projects .wrapper .projects-wrapper .project-tile:link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  margin: 4rem 0;
+}
+.section.projects .wrapper .projects-wrapper .project-tile:visited {
+  color: inherit;
+}
+.section.projects .wrapper .projects-wrapper figure img {
+  width: 100%;
+  height: auto;
+}
+.section.projects .wrapper .projects-wrapper figure figcaption {
+  font-size: template.$section-text-fs;
+  line-height: calc(2.2 * template.$html-lh);
+  background-color: template.$five-color;
+  padding: 2.5rem 0;
+  margin-top: -4px;
+}
+
+.section.contact {
+  background-color: template.$five-color;
+  border-bottom: 8px solid template.$two-color;
+  padding: 1rem 0;
+}
+.section.contact .wrapper {
+  text-align: center;
+  font-size: template.$section-text-fs;
+}
+.section.contact .wrapper h2 {
+  font-size: template.$section-title-fs;
+  line-height: calc(2 * template.$html-lh);
+  padding: 2rem 0;
+}
+section.contact .wrapper .contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section.contact .wrapper .contact-link:link {
+  margin: 1.5rem 0;
+  color: template.$one-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-variant: normal;
+  font-weight: 600;
+}
+.section.contact .wrapper .contact-link:visited {
+  color: template.$one-color;
+}
+.section.contact .wrapper .contact-link {
+  transition: padding-right 0.1s linear, color 0.1s linear;
+}
+.section.contact .wrapper .contact-link:hover {
+  padding-right: 4rem;
+  color: template.$two-color;
+}
+.section.contact img {
+  width: 25px;
+  filter: invert(100%) sepia(0%) saturate(110%) hue-rotate(43deg)
+    brightness(112%) contrast(88%);
+}
+
+.footer {
+  font-variant: normal;
+  font-size: calc(template.$section-text-fs / 1.5);
+  line-height: calc(1.5 * template.$html-lh);
+  background-color: template.$five-color;
+  text-align: center;
+  padding: 2rem;
+}

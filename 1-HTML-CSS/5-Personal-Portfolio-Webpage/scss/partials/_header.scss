@@ -1,0 +1,45 @@
+/* partials */
+//
+@use "./template.scss";
+
+.navbar {
+  background-color: template.$two-color;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.navbar .nav-list {
+  font-size: template.$nav-fs;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar .nav-list .nav-list-item:hover {
+  color: inherit;
+  background-color: template.$four-color;
+}
+
+.navbar .nav-list .nav-list-item .nav-link:link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 2rem;
+  color: inherit;
+}
+
+.navbar .nav-list .nav-list-item .nav-link:visited {
+  color: inherit;
+}
+
+.navbar .nav-list .nav-list-item .nav-link:active {
+  color: inherit;
+}

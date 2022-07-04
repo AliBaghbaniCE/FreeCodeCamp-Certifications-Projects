@@ -1,0 +1,31 @@
+/* partials */
+//
+@use "./partials/template.scss";
+@use "./partials/scrollbar.scss";
+@use "./partials/header.scss";
+@use "./partials/sections.scss";
+@use "./partials/media.scss";
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: template.$fonts;
+  font-size: template.$html-fs;
+  font-variant: small-caps;
+  line-height: template.$html-lh;
+  color: template.$one-color;
+}
+
+body,
+main {
+  width: 100vw;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,19 @@
+/* partials */
+//
+@use "./template.scss";
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: template.$two-color;
+}
+
+::-webkit-scrollbar-thumb {
+  background: template.$four-color;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: template.$three-color;
+}
