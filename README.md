@@ -16,7 +16,8 @@
 
 ## Javascript Certification Projects
 
-- ### [Palindrome Checker](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/2-Javascript/2-Algorithms-and-DataStructures-Projects/1-palindrome-checker.js)
+- ### [Palindrome Checker](./2-Javascript/2-Algorithms-and-DataStructures-Projects/1-palindrome-checker.js)
+
 
 - ### [Roman Numeral Converter](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/2-Javascript/2-Algorithms-and-DataStructures-Projects/2-roman-numeral-converter.js)
 
