@@ -9,7 +9,8 @@
     "project12": "1-HTML-CSS\\2-Tribute-Page",
     "project13": "1-HTML-CSS\\3-Technical-Documentation-Page",
     "project14": "1-HTML-CSS\\4-Product-Landing-Page",
-    "project15": "1-HTML-CSS\\5-Personal-Portfolio-Webpage"
+    "project15": "1-HTML-CSS\\5-Personal-Portfolio-Webpage",
+    "project2": "2-Javascript"
   },
   "scripts": {
     "watchPretty": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
@@ -30,6 +31,7 @@
     "prettyProject13": "prettier --write %npm_package_config_project13%",
     "prettyProject14": "prettier --write %npm_package_config_project14%",
     "prettyProject15": "prettier --write %npm_package_config_project15%",
+    "prettyProject2": "prettier --write %npm_package_config_project2%",
     "buildCss11": "sass %npm_package_config_project11%\\scss:%npm_package_config_project11%\\css --style=compressed --charset --source-map-urls=relative",
     "buildCss12": "sass %npm_package_config_project12%\\scss:%npm_package_config_project12%\\css --style=compressed --charset --source-map-urls=relative",
     "buildCss13": "sass %npm_package_config_project13%\\scss:%npm_package_config_project13%\\css --style=compressed --charset --source-map-urls=relative",

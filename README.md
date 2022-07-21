@@ -12,4 +12,20 @@
 
 - ### [Personal Portfolio Webpage](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/1-HTML-CSS/5-Personal-Portfolio-Webpage/index.html) - Good-looking portfolio website that lists all of the projects above
 
-[![Responsive Web Design Certification](https://github.com/AliBaghbaniCE/FreeCodeCamp-Certifications-Projects/blob/master/Certifications/Responsive-Web-Design.png?raw=true)](https://www.freecodecamp.org/certification/fcc1d4a581c-1280-451d-8d35-79d606211171/responsive-web-design)
+[![Responsive Web Design Certification](https://github.com/AliBaghbaniCE/FreeCodeCamp-Certifications-Projects/blob/master/Certifications/1-Responsive-Web-Design.png?raw=true)](https://www.freecodecamp.org/certification/fcc1d4a581c-1280-451d-8d35-79d606211171/responsive-web-design)
+
+## Javascript Certification Projects
+
+- ### [Palindrome Checker](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/2-Javascript/2-Algorithms-and-DataStructures-Projects/1-palindrome-checker.js)
+
+- ### [Roman Numeral Converter](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/2-Javascript/2-Algorithms-and-DataStructures-Projects/2-roman-numeral-converter.js)
+
+- ### [Caesars Cipher](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/2-Javascript/2-Algorithms-and-DataStructures-Projects/3-caesars-cipher.js)
+
+- ### [Telephone Number Validator](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/2-Javascript/2-Algorithms-and-DataStructures-Projects/4-telephone-number-validator.js)
+
+- ### [Cash Register](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/2-Javascript/2-Algorithms-and-DataStructures-Projects/5-cash-register.js)
+
+#### Also check for [Intermediate Algorithm Scripting](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/2-Javascript/1-Intermediate-Algorithm-Scripting) Projects
+
+[![JavaScript Algorithms and Data Structures Certification](https://github.com/AliBaghbaniCE/FreeCodeCamp-Certifications-Projects/blob/master/Certifications/2-Javascript.png?raw=true)](https://www.freecodecamp.org/certification/fcc1d4a581c-1280-451d-8d35-79d606211171/javascript-algorithms-and-data-structures)
