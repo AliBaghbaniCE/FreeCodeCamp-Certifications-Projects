@@ -32,4 +32,4 @@
 
 ## Front-End development Certification Projects
 
-- ### [Random Quote Machine](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/3-FrontEnd-Libraries/1-Random-Quote-Machine/index.html) - A simple quote machine that shows famous quotes from persian poets
+- ### [Random Quote Machine](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/3-FrontEnd-Libraries/1-Random-Quote-Machine/index.html) - A simple quote machine that shows quotes from famous persian poets
