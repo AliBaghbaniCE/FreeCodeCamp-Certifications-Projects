@@ -173,7 +173,12 @@ $(() => {
     $("#text q").text(quotesObj[newQuoteIndex].quote);
     $("#author").text(quotesObj[newQuoteIndex].author);
 
-    // Change styles
+    // Set tweeter
+    $("#tweet-quote").attr(
+      "href",
+      "https://twitter.com/intent/tweet?text=" +
+        quotesObj[newQuoteIndex].quote.toString()
+    );
 
     if (newQuoteIndex === quotesObj.length - 1) {
       newQuoteIndex = 0;
