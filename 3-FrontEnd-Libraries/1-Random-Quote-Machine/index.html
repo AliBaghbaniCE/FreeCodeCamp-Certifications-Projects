@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="w-100 h-100 m-0 p-0" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quote Machine</title>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="../../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/@fortawesome/fontawesome-free/css/solid.min.css" />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/@fortawesome/fontawesome-free/css/brands.min.css" />
+    <!-- My css files -->
+    <link rel="stylesheet" href="./css//index.css" />
+  </head>
+
+  <body class="w-100 h-100 m-0 p-0">
+    <!-- Page container -->
+    <main class="container-fluid pt-4">
+      <!-- Justify and align to center -->
+      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+        <!-- Quote machine and author sections container -->
+        <div class="main-box-container">
+          <!-- Quote machine section -->
+          <section class="rounded-3 bg-white">
+            <article id="quote-box">
+              <div class="row">
+                <div class="col-auto mx-auto mt-2 p-3 text-center" id="text">
+                  <i class="fas fa-quote-left"></i>
+                  <q></q>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-auto mx-auto mt-1" id="author"></div>
+              </div>
+              <!-- A wrapper for top and bottom paddings-->
+              <div class="pt-4 pb-2">
+                <div
+                  class="d-flex flex-row justify-content-around align-items-center">
+                  <div class="rounded-2">
+                    <button class="btn btn-primary tweet">
+                      <a
+                        class="twitter-share-button"
+                        id="tweet-quote"
+                        href="https://twitter.com/intent/tweet?hashtags=Quotes&related=Quotes&text=QuoteText"
+                        target="_blank"
+                        data-size="large">
+                        <i class="fa-brands fa-twitter text-white"></i>
+                      </a>
+                    </button>
+                  </div>
+                  <div>
+                    <button class="btn btn-primary my-auto" id="new-quote">
+                      New quote
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+          <!-- Author section -->
+          <section>
+            <div class="text-white text-center pb-4">
+              by :
+              <a
+                class="text-decoration-none text-white"
+                href="https://github.com/AliBaghbaniCE"
+                target="_blank">
+                <strong>Ali Baghbani</strong>
+              </a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Jquery -->
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- My scripts -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>

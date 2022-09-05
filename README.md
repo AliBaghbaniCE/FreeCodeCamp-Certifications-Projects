@@ -18,7 +18,6 @@
 
 - ### [Palindrome Checker](https://github.com/AliBaghbaniCE/FreeCodeCamp-Certifications-Projects/blob/master/2-Javascript/2-Algorithms-and-DataStructures-Projects/1-palindrome-checker.js)
 
-
 - ### [Roman Numeral Converter](https://github.com/AliBaghbaniCE/FreeCodeCamp-Certifications-Projects/blob/master/2-Javascript/2-Algorithms-and-DataStructures-Projects/2-roman-numeral-converter.js)
 
 - ### [Caesars Cipher](https://github.com/AliBaghbaniCE/FreeCodeCamp-Certifications-Projects/blob/master/2-Javascript/2-Algorithms-and-DataStructures-Projects/3-caesars-cipher.js)
@@ -30,3 +29,7 @@
 #### Also check for [Intermediate Algorithm Scripting](https://github.com/AliBaghbaniCE/FreeCodeCamp-Certifications-Projects/tree/master/2-Javascript/1-Intermediate-Algorithm-Scripting) Projects.
 
 [![JavaScript Algorithms and Data Structures Certification](https://github.com/AliBaghbaniCE/FreeCodeCamp-Certifications-Projects/blob/master/Certifications/2-Javascript.png?raw=true)](https://www.freecodecamp.org/certification/fcc1d4a581c-1280-451d-8d35-79d606211171/javascript-algorithms-and-data-structures)
+
+## Front-End development Certification Projects
+
+- ### [Random Quote Machine](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/3-FrontEnd-Libraries/1-Random-Quote-Machine/index.html) - A simple quote machine that shows famous quotes from persian poets

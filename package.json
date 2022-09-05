@@ -10,7 +10,8 @@
     "project13": "1-HTML-CSS\\3-Technical-Documentation-Page",
     "project14": "1-HTML-CSS\\4-Product-Landing-Page",
     "project15": "1-HTML-CSS\\5-Personal-Portfolio-Webpage",
-    "project2": "2-Javascript"
+    "project2": "2-Javascript",
+    "project31": "3-FrontEnd-Libraries\\1-Random-Quote-Machine"
   },
   "scripts": {
     "watchPretty": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
@@ -20,6 +21,7 @@
     "watchProject13": "live-server --open=%npm_package_config_project13%\\index.html",
     "watchProject14": "live-server --open=%npm_package_config_project14%\\index.html",
     "watchProject15": "live-server --open=%npm_package_config_project15%\\index.html",
+    "watchProject31": "live-server --open=%npm_package_config_project31%\\index.html",
     "watchCss11": "sass --watch %npm_package_config_project11%\\scss:%npm_package_config_project11%\\css",
     "watchCss12": "sass --watch %npm_package_config_project12%\\scss:%npm_package_config_project12%\\css",
     "watchCss13": "sass --watch %npm_package_config_project13%\\scss:%npm_package_config_project13%\\css",
@@ -32,6 +34,7 @@
     "prettyProject14": "prettier --write %npm_package_config_project14%",
     "prettyProject15": "prettier --write %npm_package_config_project15%",
     "prettyProject2": "prettier --write %npm_package_config_project2%",
+    "prettyProject31": "prettier --write %npm_package_config_project31%",
     "buildCss11": "sass %npm_package_config_project11%\\scss:%npm_package_config_project11%\\css --style=compressed --charset --source-map-urls=relative",
     "buildCss12": "sass %npm_package_config_project12%\\scss:%npm_package_config_project12%\\css --style=compressed --charset --source-map-urls=relative",
     "buildCss13": "sass %npm_package_config_project13%\\scss:%npm_package_config_project13%\\css --style=compressed --charset --source-map-urls=relative",
@@ -42,12 +45,14 @@
     "prefixCss13": "postcss %npm_package_config_project13%\\css\\*.css --use autoprefixer -d %npm_package_config_project13%\\css",
     "prefixCss14": "postcss %npm_package_config_project14%\\css\\*.css --use autoprefixer -d %npm_package_config_project14%\\css",
     "prefixCss15": "postcss %npm_package_config_project15%\\css\\*.css --use autoprefixer -d %npm_package_config_project15%\\css",
+    "prefixCss31": "postcss %npm_package_config_project31%\\css\\*.css --use autoprefixer -d %npm_package_config_project31%\\css",
     "buildProject11": "npm run PrettyRootDir && npm run prettyProject11 && npm run buildCss11 && npm run prefixCss11",
     "buildProject12": "npm run PrettyRootDir && npm run prettyProject12 && npm run buildCss12 && npm run prefixCss12",
     "buildProject13": "npm run PrettyRootDir && npm run prettyProject13 && npm run buildCss13 && npm run prefixCss13",
     "buildProject14": "npm run PrettyRootDir && npm run prettyProject14 && npm run buildCss14 && npm run prefixCss14",
     "buildProject15": "npm run PrettyRootDir && npm run prettyProject15 && npm run buildCss15 && npm run prefixCss15",
-    "buildAll": "npm run buildProject11 && npm run buildProject12 && npm run buildProject13 &&  npm run buildProject14 &&  npm run buildProject15"
+    "buildProject31": "npm run PrettyRootDir && npm run prettyProject31 && npm run prefixCss31",
+    "buildAll": "npm run buildProject11 && npm run buildProject12 && npm run buildProject13 &&  npm run buildProject14 &&  npm run buildProject15 && buildProject31"
   },
   "repository": {
     "type": "git",
@@ -70,5 +75,10 @@
     "postcss-cli": "10.0.0",
     "prettier": "2.7.1",
     "sass": "1.53.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.1"
   }
 }
