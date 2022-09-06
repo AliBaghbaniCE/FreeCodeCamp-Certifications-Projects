@@ -1,5 +1,5 @@
 {
-  "homepage": "https://alibaghbanice.github.io",
+  "homepage": "https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/3-FrontEnd-Libraries/2-markdown-previewer",
   "name": "2-markdown-previewer",
   "version": "0.1.0",
   "private": true,
@@ -40,4 +40,3 @@
     "gh-pages": "^4.0.0"
   }
 }
-
