@@ -34,4 +34,4 @@
 
 - ### [Random Quote Machine](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/3-FrontEnd-Libraries/1-Random-Quote-Machine/index.html) - A simple quote machine that shows quotes from famous persian poets with Jquery and Bootstrap
 
-- ### [Markdown Previewer](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/3-FrontEnd-Libraries/2-markdown-previewer) - A Markdown Previewr created with React
+- ### [Markdown Previewer](https://alibaghbanice.github.io/FreeCodeCamp-Certifications-Projects/3-FrontEnd-Libraries/2-markdown-previewer) - A Markdown Previewer created with React
