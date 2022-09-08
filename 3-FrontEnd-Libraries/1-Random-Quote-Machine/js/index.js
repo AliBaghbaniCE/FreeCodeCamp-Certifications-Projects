@@ -167,8 +167,28 @@ $(() => {
       quotesObj[randomIndex].quote.toString()
   );
 
-  // When new quote is clicked
+  // When new quote is clicked in desktop browsers
   $("#new-quote").on("click", () => {
+    // Change quotes to new quotes
+    $("#text q").text(quotesObj[newQuoteIndex].quote);
+    $("#author").text(quotesObj[newQuoteIndex].author);
+
+    // Set tweeter
+    $("#tweet-quote").attr(
+      "href",
+      "https://twitter.com/intent/tweet?text=" +
+        quotesObj[newQuoteIndex].quote.toString()
+    );
+
+    if (newQuoteIndex === quotesObj.length - 1) {
+      newQuoteIndex = 0;
+    } else {
+      newQuoteIndex++;
+    }
+  });
+
+  // When new quote is clicked in mobile browsers
+  $("#new-quote").on("tap", () => {
     // Change quotes to new quotes
     $("#text q").text(quotesObj[newQuoteIndex].quote);
     $("#author").text(quotesObj[newQuoteIndex].author);
